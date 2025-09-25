@@ -1,0 +1,33 @@
+{
+  "name": "hasta-kala-kriti",
+  "version": "1.0.0",
+  "description": "Hasta कला Kriti - Serverless e-commerce platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev:frontend": "cd frontend && npx --yes next dev",
+    "build:frontend": "cd frontend && npx --yes next build",
+    "start:frontend": "cd frontend && npx --yes next start",
+    "dev:backend": "cd backend && strapi develop",
+    "build:backend": "cd backend && strapi build",
+    "start:backend": "cd backend && strapi start"
+  },
+  "author": "Aniket Banerjee",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "strapi": "^4.12.0",
+    "axios": "^1.5.0",
+    "supabase-js": "^2.25.0",
+    "stripe": "^14.28.0",
+    "razorpay": "^2.8.0",
+    "onesignal-node": "^1.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.6.0",
+    "nodemon": "^3.1.1"
+  }
+}
